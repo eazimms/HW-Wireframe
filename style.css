@@ -56,7 +56,11 @@ header {
     
 }
 
-.item2 ul {
+.item2 li:hover{
+    background-color: #7777; 
+}
+
+a {
     color: black; 
     background-color:
 }
@@ -123,4 +127,20 @@ footer {
     background-color: #CEC8C7; 
 
     
+}
+
+.contact {
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    color: black; 
+
+}
+
+i {
+    color: red; 
+}
+
+.contact:hover{
+    color: whitesmoke; 
+    background: #7777; 
 }
