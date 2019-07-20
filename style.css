@@ -1,3 +1,7 @@
+@media screen and (max-width: 481px){
+}
+
+
 .parent { 
 display: grid; 
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
