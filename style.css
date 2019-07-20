@@ -1,5 +1,5 @@
 html, body {
-    overflow-x: hidden; 
+    overflow: hidden; 
 }
 
 .parent { 
@@ -18,6 +18,11 @@ body {
     color: #7777; 
     background: #ebebeb; 
     position: relative;
+    overflow: hidden; 
+    width: 100%
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 header {
