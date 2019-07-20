@@ -1,4 +1,6 @@
-
+html, body {
+    overflow-x: hidden; 
+}
 
 .parent { 
 display: grid; 
@@ -15,6 +17,7 @@ border: 1%;
 body {
     color: #7777; 
     background: #ebebeb; 
+    position: relative;
 }
 
 header {
@@ -68,7 +71,7 @@ a {
 }
 
 .toni {
-    height: 15rem; 
+    height: 15em; 
     display: flex; 
     float: left; 
     border: 1% solid; 
@@ -121,10 +124,10 @@ article {
 footer {
     margin: 0px; 
     border: 0px; 
-    border-top: 3.2rem;  
+    border-top: 3.2em;  
     justify-content: end; 
     align-content: end; 
-    border-top: .25rem solid; 
+    border-top: .25em solid; 
     border-top-color:#8de0cd; 
     background-color: #CEC8C7; 
 
@@ -133,7 +136,7 @@ footer {
 
 .contact {
     font-family: 'Times New Roman', Times, serif; 
-    font-size: 1.5rem; 
+    font-size: 1.5em; 
     color: black; 
     line-height: 350%; 
 
